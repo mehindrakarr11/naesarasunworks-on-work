@@ -493,20 +493,15 @@ a:focus-visible {
   padding: 50px;
   overflow: hidden;
   border-radius: 18px;
-  background: var(--teal-dark);
+  background:
+    radial-gradient(
+      circle at calc(100% + 115px) calc(100% + 5px),
+      transparent 214px,
+      rgb(235 190 108 / 19%) 215px,
+      transparent 216px
+    ),
+    var(--teal-dark);
   color: #f7faf5;
-}
-
-.purpose-section::after {
-  position: absolute;
-  right: -100px;
-  bottom: -220px;
-  width: 430px;
-  height: 430px;
-  border: 1px solid rgb(235 190 108 / 19%);
-  border-radius: 50%;
-  content: "";
-  pointer-events: none;
 }
 
 .purpose-sun {
@@ -759,7 +754,7 @@ a:focus-visible {
   }
 
   .brand-logo {
-    width: min(190px, 58vw);
+    width: min(190px, calc(100vw - 146px));
   }
 
   .header-contact {
