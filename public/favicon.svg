@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Naesarasunworks mark">
+  <rect width="64" height="64" rx="18" fill="#f6f1eb" />
+  <path d="M16 18h8.5L32 35.5V18h8v28h-8.5L24 28.5V46h-8V18Z" fill="#171717"/>
+  <path d="M48 18h-8.5L32 35.5V18h-8v28h8.5L40 28.5V46h8V18Z" fill="#171717" opacity="0.14"/>
+</svg>
